@@ -27,25 +27,24 @@ body {
 
 .box {
     padding: 20px;
-    /* border-radius: 10px; */
-    background-color: #ddd;
+border-radius: 10px;
 }
 
 /* Area colouring... */
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #6f1d1b;
+    background-color: #a10000;
 }
 
 /* Set font on light areas to dark blue */
 .logo, .main, .side, .footer {
-    color: #27474e;
+    color: #000000;
 }
 
 /* Set font on dark areas to light blue */
 .banner {
-    color: #81d2c7;
+    color: #ffffff;
 }
 
 /* Area specifics */
@@ -62,14 +61,14 @@ body {
 
 .side {
     grid-area: side;
-    background-color: #dd9787;
-    font-size: 150%;
+    background-color: #e04825;
+    font-size: 125%;
     text-align: center;
 }
 
 .main {
     grid-area: main;
-    background-color: #dd9787;
+    background-color: #e04825;
     border: solid 1px #CCC;
 }
 
@@ -86,9 +85,9 @@ h1, h2, h3, h4 {
 }
 
 /* Navigation Links */
-.nav a {font-weight: bold;}
-.nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
-.nav a:hover {color: #604830; text-decoration: none;} /* chocolate brown */
+a.side{font-weight: bold; text-decoration: none;}
+a.side:link, a.side:visited {color: #A10000;} /*dark red */
+a.side:hover {color: #ffffff;} /* white */
 
 
 /* links in page */

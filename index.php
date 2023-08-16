@@ -1,23 +1,23 @@
 <?php
     include "topbit.php";
 ?>
-
-        <!-- Navigation goes here.  Edit BOTH the file name and the link name -->
+        
+        <!-- nav -->
         <div class="box side">
-            <h2>Side Bar</h2>
+            <h2>Search | <a class="side" href="showall.php">Show All</a></h2>
 
-            <p>Items Go Here</p>
+            <i>Type Part of the Title / Author Name if Desired</i>
 
-            <ul>
-                <li>Listing</li>
-                <li>Listing</li>
-                <li>Listing</li>
-                <li>Listing</li>
-                <li>Here</li>
-            </ul>
+            <hr />
+
+            Title Search<br />
+            Author Search<br />
+            Genre Search<br />
+            Rating Search
 
         </div>    <!-- / nav -->        
-        
+         
+        <!-- main -->
         <div class="box main">
             <h2>First Page heading</h2>
             
