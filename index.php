@@ -8,11 +8,11 @@
 
             <i>Type Part of the Title / Author Name if Desired</i>
 
-            <hr />
+            <hr>
 
-            Title Search<br />
-            Author Search<br />
-            Genre Search<br />
+            Title Search<br>
+            Author Search<br>
+            Genre Search<br>
             Rating Search
 
         </div>    <!-- / nav -->        

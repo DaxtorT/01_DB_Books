@@ -23,7 +23,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Book Review Database">
-    <meta name="keywords" content="books, reading, fiction, nono-fiction, genre, reviews">
+    <meta name="keywords" content="books, reading, fiction, non-fiction, genre, reviews">
     <meta name="author" content="Tyler Saelman-Linn">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     

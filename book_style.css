@@ -37,13 +37,13 @@ border-radius: 10px;
     background-color: #a10000;
 }
 
-/* Set font on light areas to dark blue */
+/* Set font on light areas to black */
 .logo, .main, .side, .footer {
     color: #000000;
 }
 
-/* Set font on dark areas to light blue */
-.banner {
+/* Set font on dark areas to white */
+.banner, .results {
     color: #ffffff;
 }
 
@@ -121,6 +121,13 @@ a:hover{color: #000;}    /* Black*/
     font-weight: bold;
 }
 
+/* Results Box Formatting*/
+.results {
+    background-color: #a10000;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
 
 
 
