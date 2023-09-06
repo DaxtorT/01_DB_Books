@@ -1,7 +1,7 @@
         <div class="box footer">
-            CC yourname 20XX
-        </div>    <!-- / footer -->
+            CC Tyler Saelman-Linn 2023
+        </div>    <!-- / end footer -->
     
-    </div>  <!-- / wrapper  -->
+    </div>  <!-- / end wrapper  -->
     
 </body>  

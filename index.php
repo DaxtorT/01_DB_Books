@@ -1,21 +1,6 @@
 <?php
     include "topbit.php";
-?>
-        
-        <!-- nav -->
-        <div class="box side">
-            <h2>Search | <a class="side" href="showall.php">Show All</a></h2>
-
-            <i>Type Part of the Title / Author Name if Desired</i>
-
-            <hr>
-
-            Title Search<br>
-            Author Search<br>
-            Genre Search<br>
-            Rating Search
-
-        </div>    <!-- / nav -->        
+?>     
          
         <!-- main -->
         <div class="box main">
@@ -33,7 +18,7 @@
                 Biscuit jelly I love jelly-o candy canes chupa chups topping lemon drops I love. Sesame snaps macaroon lemon drops carrot cake I love. Chocolate bar gingerbread chupa chups. Dessert chocolate pastry liquorice tootsie roll lemon drops sweet macaroon liquorice. I love muffin bonbon. Cupcake apple pie chocolate cake bonbon topping. Macaroon gummi bears dragée caramels donut chocolate.
             </p>
             
-        </div>    <!-- / main -->
+        </div>    <!-- / end main -->
         
 <?php
     include "bottombit.php";

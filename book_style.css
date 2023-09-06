@@ -62,7 +62,6 @@ border-radius: 10px;
 .side {
     grid-area: side;
     background-color: #e04825;
-    font-size: 125%;
     text-align: center;
 }
 
@@ -86,15 +85,15 @@ h1, h2, h3, h4 {
 
 /* Navigation Links */
 a.side{font-weight: bold; text-decoration: none;}
-a.side:link, a.side:visited {color: #A10000;} /*dark red */
+a.side:link, a.side:visited {color: #3e3e3e;} /* dark-ish grey */
 a.side:hover {color: #ffffff;} /* white */
 
 
 /* links in page */
 a {font-weight: bold;}
-a:link{color: #AA0000;} /*dark_red */
+a:link{color: #AA0000;} /* dark red */
 a:visited{color: #111177;} /* dark blue */
-a:hover{color: #000;}    /* Black*/
+a:hover{color: #000;}    /* black */
 
 
 /* Contact Form Styling */
@@ -103,7 +102,7 @@ a:hover{color: #000;}    /* Black*/
 }
 
 
-.img-circle {
+.img-circle {   
     border-radius: 50%;
     max-width: 85%;
     height: auto;
@@ -117,33 +116,81 @@ a:hover{color: #000;}    /* Black*/
 /* Sub Heading Formatting */
 .sub_heading {
     font-family: 'Ubuntu', sans-serif;
-    color: #593849; /* purple */
-    font-weight: bold;
+    color: #fff; /* white */
+    font-weight: normal;
 }
 
 /* Results Box Formatting*/
 .results {
+    font-weight: bold;
     background-color: #a10000;
     border-radius: 10px;
     border: 1px solid #000;
     padding: 5px;
 }
 
+/* Error Box Formatting */
+.error {
+    background-color: #a14545; /* pale red */
+    border: #a10000; /* dark red */
+    color: #a10000; /* dark red */
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+	border-style: solid;
+}
+
+/* Search Box Formatting */
+.search {
+    width: 200px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #a10000;
+}
+
+/* Submit Button Formatting */
+.submit {
+    width: 75px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #a10000;
+}
 
 
+/* Style the button that triggers the dropdown */
+.dropdown_button {
+    width: 75px;
+    border-radius: 5px;
+    border-style: solid;  
+    border-color: #a10000;
+}
 
+/* Style the dropdown content (hidden by default) */
+.dropdown_content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
 
+/* Style the dropdown links */
+.dropdown_content a {
+    color: #000;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+	border-style: solid;
+	border-color: #a10000;
+	border-radius: 5px;
+}
 
+/* Change color of dropdown links on hover */
+.dropdown_content a:hover {
+    background-color: #fff;
+	color: #000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown_content {
+    display: inline;
+}

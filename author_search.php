@@ -1,15 +1,22 @@
 <?php
     include "topbit.php";
 
-    $find_sql="SELECT * FROM `book_reviews` ORDER BY `book_reviews`.`Title` ASC";
+    // If 'Search' button pressed...
+    if(isset($_POST['find_author']))
+
+    {
+    // Retrieves author and sanitises it.
+    $author=test_input(mysqli_real_escape_string($dbconnect, $_POST['author']));
+
+    $find_sql="SELECT * FROM `book_reviews` WHERE `author` LIKE '%$author%' ORDER BY `author` ASC";
     $find_query=mysqli_query($dbconnect, $find_sql);
     $find_rs=mysqli_fetch_assoc($find_query);
     $count=mysqli_num_rows($find_query);
-?>       
+?>      
          
         <!-- results -->
         <div class="box main">
-            <h2>All Items</h2>
+            <h2>Author Search</h2>
            
             <?php
             
@@ -54,7 +61,7 @@
                     </div>    <!-- / end results -->
 
                     <br>
-                
+
                     <?php
                 } // end do
 
@@ -63,10 +70,11 @@
 
             // if there are results, display them
 
+            } // End of 'if' (line 4)
+
             ?>
-
+            
         </div> <!-- / end box main -- >
-
         
 <?php
     include "bottombit.php";
